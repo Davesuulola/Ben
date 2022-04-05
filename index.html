@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Welcome to Invest.io</h1>
+you will be getting a 4.8% profit after every 2 months
+<h2>You get
+    <input type="number" id="percent">%
+out of <input type="number" id="num">
+</h2>
+<h2>which is</h2>
+<button onclick="percentage_1()">Calculate</button>
+<input type="number" id="value1" readonly>
+</body>
+</html>
+<script type="text/javascript">
+       function percentage_1()
+    {
+        var percent = document.getElementById("percent").value;
+        var num = document.getElementById("num").value;
+        document.getElementById("value1").value = (num/100)*percent;
+    }
+    console.log (answer)
+</script>
